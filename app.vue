@@ -5,8 +5,7 @@
         <div class="d-flex align-center">
           <v-icon size="32" color="primary" class="mr-3">mdi-magnify-scan</v-icon>
           <div>
-            <h1 class="text-h6 font-weight-bold mb-0">OSINT DEV</h1>
-            <p class="text-caption text-grey ma-0">Framework for OSINT Dev & Cloud</p>
+            <h1 class="text-h6 font-weight-bold mb-0">OSINT DEVELOPMENT</h1>
           </div>
         </div>
         <v-spacer></v-spacer>
@@ -74,13 +73,6 @@
           </div>
         </div>
 
-        <v-row v-if="filteredCategories.length === 0">
-          <v-col cols="12" class="text-center py-8">
-            <v-icon size="48" color="grey" class="mb-3">mdi-magnify-remove</v-icon>
-            <h3 class="text-h6 text-grey mb-2">No categories found</h3>
-            <p class="text-grey">Try modifying your search criteria</p>
-          </v-col>
-        </v-row>
       </v-container>
 
     </v-main>
@@ -88,7 +80,7 @@
     <v-footer class="bg-surface text-center pa-2 border-t">
       <div class="text-caption text-grey">
         <v-icon size="14" class="mr-1">mdi-shield-lock</v-icon>
-        OSINT DEV Framework - {{ tools.length }} tools available
+        OSINT DEVELOPMENT - {{ tools.length }} tools available
       </div>
     </v-footer>
   </v-app>
