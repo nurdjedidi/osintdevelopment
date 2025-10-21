@@ -20,7 +20,7 @@ A comprehensive collection of OSINT (Open Source Intelligence) and development t
 
 | Category | Tools | Description |
 |----------|-------|-------------|
-| 🐙 **GitHub & Code** | 5 tools | Repository, commit, and code analysis |
+| 💻 **GitHub & Code** | 5 tools | Repository, commit, and code analysis |
 | 🎨 **UI/UX Design** | 10 tools | Design, user interfaces, and user experience |
 | 🔌 **APIs & Endpoints** | 10 tools | API discovery, testing, and documentation |
 | ☁️ **Cloud & Infrastructure** | 10 tools | AWS, Azure, GCP, and cloud services |
@@ -28,7 +28,7 @@ A comprehensive collection of OSINT (Open Source Intelligence) and development t
 | 🤖 **AI & ML** | 10 tools | AI models, datasets, and ML APIs |
 | 🔒 **Security** | 4 tools | CVE, vulnerabilities, and security tools |
 | 📦 **NPM & Packages** | 4 tools | Package management and analysis |
-| 🐳 **Docker & Containers** | 3 tools | Container management and security |
+| 🛳️ **Docker & Containers** | 3 tools | Container management and security |
 | 📊 **Monitoring & Logs** | 10 tools | Logs, metrics, and observability |
 | 🛠️ **DevTools** | 10 tools | Development utilities and tools |
 
