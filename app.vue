@@ -124,7 +124,11 @@ useHead({
     { name: 'apple-mobile-web-app-title', content: 'OSINT Development' }
   ],
   link: [
-    { rel: 'canonical', href: 'https://osintdevelopment.dev' }
+    { rel: 'canonical', href: 'https://osintdevelopment.dev' },
+    { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+    { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+    { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicon.png' },
+    { rel: 'manifest', href: '/site.webmanifest' }
   ]
 })
 
