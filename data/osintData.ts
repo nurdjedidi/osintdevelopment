@@ -80,7 +80,6 @@ export const tools: OsintTool[] = [
   { id: 'ui/ux-2', name: 'Fluent UI', url: 'https://developer.microsoft.com/en-us/fluentui', description: 'Microsoft design system and components', categoryId: 'ui/ux', tags: ['design-system', 'components'] },
   { id: 'ui/ux-3', name: 'Heroicons', url: 'https://heroicons.com/', description: 'Beautiful hand-crafted SVG icons', categoryId: 'ui/ux', tags: ['icons', 'svg'] },
   { id: 'ui/ux-4', name: 'Lucide', url: 'https://lucide.dev/', description: 'Beautiful & consistent icon toolkit', categoryId: 'ui/ux', tags: ['icons', 'toolkit'] },
-  { id: 'ui/ux-5', name: 'Unsplash', url: 'https://unsplash.com/', description: 'Beautiful free images and photos', categoryId: 'ui/ux', tags: ['images', 'photos'] },
 
   { id: 'api-1', name: 'Public APIs', url: 'https://github.com/public-apis/public-apis', description: 'List of public APIs', categoryId: 'api', tags: ['directory'] },
   { id: 'api-2', name: 'RapidAPI', url: 'https://rapidapi.com/', description: 'API marketplace', categoryId: 'api', tags: ['marketplace'] },
