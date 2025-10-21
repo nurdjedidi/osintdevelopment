@@ -91,6 +91,48 @@ import { computed, ref } from 'vue'
 import { categories, tools } from '~/data/osintData'
 import type { OsintCategory } from '~/types/osint'
 
+useHead({
+  title: 'OSINT DEBELOPMENT',
+  meta: [
+    { name: 'description', content: 'Discover a comprehensive collection of OSINT and development tools for developers. GitHub, APIs, Cloud, AI/ML, Security, and more.' },
+    { name: 'keywords', content: 'OSINT, development, tools, GitHub, API, Cloud, AI, ML, security, monitoring, devtools' },
+    { name: 'author', content: 'OSINT Development' },
+    { name: 'robots', content: 'index, follow' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+
+    { property: 'og:type', content: 'website' },
+    { property: 'og:title', content: 'OSINT Development - OSINT & Development Tools' },
+    { property: 'og:description', content: 'Discover a comprehensive collection of OSINT and development tools for developers.' },
+    { property: 'og:url', content: 'https://osintdevelopment.com' },
+    { property: 'og:site_name', content: 'OSINT Development' },
+    { property: 'og:image', content: '/og-image.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:locale', content: 'en_US' },
+
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'OSINT Development - OSINT & Development Tools' },
+    { name: 'twitter:description', content: 'Discover a comprehensive collection of OSINT and development tools for developers.' },
+    { name: 'twitter:image', content: '/twitter-image.png' },
+    { name: 'twitter:site', content: '@osintdev' },
+    { name: 'twitter:creator', content: '@osintdev' },
+
+    { name: 'theme-color', content: '#00d9ff' },
+    { name: 'msapplication-TileColor', content: '#00d9ff' },
+    { name: 'apple-mobile-web-app-capable', content: 'yes' },
+    { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
+    { name: 'apple-mobile-web-app-title', content: 'OSINT Development' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://osintdevelopment.dev' },
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+    { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+    { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+    { rel: 'manifest', href: '/site.webmanifest' }
+  ]
+})
+
 const searchQuery = ref('')
 const selectedCategory = ref<string[]>([])
 const selectedCategoryData = ref<OsintCategory | null>(null)
