@@ -92,7 +92,7 @@ import { categories, tools } from '~/data/osintData'
 import type { OsintCategory } from '~/types/osint'
 
 useHead({
-  title: 'OSINT DEBELOPMENT',
+  title: 'OSINT Development',
   meta: [
     { name: 'description', content: 'Discover a comprehensive collection of OSINT and development tools for developers. GitHub, APIs, Cloud, AI/ML, Security, and more.' },
     { name: 'keywords', content: 'OSINT, development, tools, GitHub, API, Cloud, AI, ML, security, monitoring, devtools' },
@@ -101,7 +101,7 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
 
     { property: 'og:type', content: 'website' },
-    { property: 'og:title', content: 'OSINT Development - OSINT & Development Tools' },
+    { property: 'og:title', content: 'OSINT Development' },
     { property: 'og:description', content: 'Discover a comprehensive collection of OSINT and development tools for developers.' },
     { property: 'og:url', content: 'https://osintdevelopment.com' },
     { property: 'og:site_name', content: 'OSINT Development' },
@@ -124,12 +124,7 @@ useHead({
     { name: 'apple-mobile-web-app-title', content: 'OSINT Development' }
   ],
   link: [
-    { rel: 'canonical', href: 'https://osintdevelopment.dev' },
-    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
-    { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
-    { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
-    { rel: 'manifest', href: '/site.webmanifest' }
+    { rel: 'canonical', href: 'https://osintdevelopment.dev' }
   ]
 })
 
