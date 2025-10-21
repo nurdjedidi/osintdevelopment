@@ -35,7 +35,7 @@ A comprehensive collection of OSINT (Open Source Intelligence) and development t
 ## 🛠️ Tech Stack
 
 - **Frontend**: Vue 3 + Composition API
-- **Framework**: Nuxt 3
+- **Framework**: Nuxt 4
 - **UI Library**: Vuetify 3
 - **Language**: TypeScript
 - **Styling**: CSS3 with custom animations
@@ -181,7 +181,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## 💡 Acknowledgments
+
 
 - All the amazing developers who created the tools listed
 - Vue.js and Nuxt.js communities
